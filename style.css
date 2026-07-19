@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#FAF8F5;
+    font-family:'Poppins',sans-serif;
+    color:#4B4038;
+    line-height:1.7;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+.overlay{
+    width:100%;
+    max-width:700px;
+}
+
+.intro{
+    text-align:center;
+}
+
+.heart{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:56px;
+    font-weight:500;
+    color:#4B4038;
+}
+
+h2{
+    font-size:20px;
+    font-weight:300;
+    letter-spacing:3px;
+    margin-top:10px;
+    color:#8D7767;
+}
+
+.subtitle{
+    margin:30px auto;
+    max-width:520px;
+    font-size:18px;
+}
+
+.photo{
+    width:100%;
+    border-radius:25px;
+    margin:35px 0;
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
+}
+
+.text{
+    max-width:600px;
+    margin:auto;
+}
+
+.text p{
+    margin-bottom:18px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    margin:45px 0;
+}
+
+.buttons a{
+    text-decoration:none;
+    padding:18px;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.photo-btn{
+    background:#D8C1A7;
+    color:#fff;
+}
+
+.photo-btn:hover{
+    background:#c9ae91;
+}
+
+.audio-btn{
+    background:#fff;
+    color:#4B4038;
+    border:2px solid #C9A56A;
+}
+
+.audio-btn:hover{
+    background:#faf5ef;
+}
+
+footer{
+    margin-top:40px;
+    color:#7b6c5f;
+    font-size:15px;
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:42px;
+}
+
+.subtitle{
+    font-size:16px;
+}
+
+.buttons a{
+    font-size:16px;
+}
+
+}
