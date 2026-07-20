@@ -55,9 +55,13 @@ h2{
 }
 
 .photo{
-    width:250px;
-    objec
-    border-radius:50%;
+    width:100%;
+    max-width:280px;
+    height:auto;
+    border-radius:16px;
+    display:block;
+    margin:30px auto;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
 }
 
 .text{
